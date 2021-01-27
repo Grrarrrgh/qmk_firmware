@@ -15,11 +15,11 @@
 * 3 - Next layer, Previous layer, Photoshop layer
 ![img](https://i.imgur.com/ZbU74fa.jpg)
 
-* RGB
+* RGB  
 ![img](https://i.imgur.com/NJ9GHRk.jpg)
 <br />
 
-* F keys
+* F keys  
 ![img](https://i.imgur.com/DllgKbV.jpg)
 <br />
 
@@ -33,7 +33,7 @@
 ![img](https://i.imgur.com/UuEqzFC.jpg)
 <br />
 
-* Fifth layer is arrow keys (aiming to merge these into another layer). 
+* Fifth layer is arrow keys (aiming to merge these into another layer).  
 ![img](https://i.imgur.com/4SN8Nvy.jpg)  
 <br />
 
