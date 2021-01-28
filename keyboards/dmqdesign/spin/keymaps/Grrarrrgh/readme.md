@@ -5,25 +5,25 @@
 * OLED displays layer name and RGB mode  
 <br />
 
-#Layout
+## Layout
 
 
-* Numberpad.
+### Numberpad.
 * Encoders (CW, !CW, Press):
 * 1 - VolUp, VolDn, Mute
 * 2 - ScrollUp, ScrollDn, Reset
 * 3 - Next layer, Previous layer, Photoshop layer  
 ![img](https://i.imgur.com/B5lEVrV.jpg)
 
-* RGB  
+### RGB  
 ![img](https://i.imgur.com/e12dA56.jpg)
 <br />
 
-* F keys  
+### F keys  
 ![img](https://i.imgur.com/pk1ophm.jpg)
 <br />
 
-* Adobe
+### Photoshop
 * User specific Photoshop keys (customised keybinds included below) 
 * Encoders (CW, !CW, Press):
 * 1 - ], [, Escape
@@ -33,16 +33,17 @@
 ![img](https://i.imgur.com/8HquDGi.jpg)
 <br />
 
-* Arrows (aiming to merge these into another layer).  
+### Arrows (aiming to merge these into another layer).  
 ![img](https://i.imgur.com/SXNiBpJ.jpg)  
 <br />
 
-* Destiny 2
+### Destiny 2
 * Macros for lazy Guardians (not implimented yet becasue timed macros and burnout).  Encoders as numberpad.  
 <br />
 <br />
+<br />
 
-#Photoshop keybinds
+# Photoshop keybinds
 
 KEY	|	TOOLS				|	CTRL			|	CTRL SHFT			|	CTRL ALT				|	CTRL ALT SHIFT	|	ALT SHIFT/MODE
 ---	|	------------------	|	--------------	|	------------------	|	---------------------	|	--------------	|	--------------
