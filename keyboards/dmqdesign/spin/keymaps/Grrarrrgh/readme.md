@@ -23,21 +23,22 @@
 ![img](https://i.imgur.com/pk1ophm.jpg)
 <br />
 
-* Forth layer is user specific (ie customised) Photoshop keys (customised keybinds included below) 
+* Adobe
+* User specific Photoshop keys (customised keybinds included below) 
 * Encoders (CW, !CW, Press):
 * 1 - ], [, Escape
 * 2 - Opacity/Fill/Flow (with Shift modifier) +3%, -3%, Next Document (CTRL+TAB)
 * 3 - Next layer, Previous layer, Numberpad layer
 * Note that the opacity/fill/flow functionality cannot read the current value from Photoshop, instead a value of 60% is chosen as the start point (when the keypad is connected)and for each detent turn cw that value is increased by 3, rememberred, and sent as a keypress. Turning anti-cw  reduces the value by 3 and sends as a keypress. ie on first use it will **always** set the opacity/fill/flow to 60% and increase/decrease form there.  
-
 ![img](https://i.imgur.com/8HquDGi.jpg)
 <br />
 
-* Fifth layer is arrow keys (aiming to merge these into another layer).  
+* Arrows (aiming to merge these into another layer).  
 ![img](https://i.imgur.com/SXNiBpJ.jpg)  
 <br />
 
-* Sixth layer is Destiny 2 macros for lazy Guardians (not implimented yet becasue timed macros and burnout).  Encoders as numberpad.  
+* Destiny 2
+* Macros for lazy Guardians (not implimented yet becasue timed macros and burnout).  Encoders as numberpad.  
 <br />
 <br />
 
