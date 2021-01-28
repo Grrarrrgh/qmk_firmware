@@ -165,7 +165,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // |		|		|		|		|
 //  -------------------------------- 
     [_PS] = LAYOUT(/* Base */
-				KC_TRNS, NXTDOC, TO(_NUMPAD),
+				KC_ESC, NXTDOC, TO(_NUMPAD),
 				TD(TD_A_I), TD(TD_N_G), TD(TD_X_C), TD(TD_V_D),
 				KC_LSHIFT, TD(TD_S_E), TD(TD_P_K), TD(TD_L_Z),
 				KC_LCTL, KC_LALT, KC_SPACE, TD(TD_ENT_BSPACE)
