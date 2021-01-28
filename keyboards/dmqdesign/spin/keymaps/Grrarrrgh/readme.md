@@ -12,7 +12,7 @@
 * Encoders (CW, !CW, Press):
 * 1 - VolUp, VolDn, Mute
 * 2 - ScrollUp, ScrollDn, Reset
-* 3 - Next layer, Previous layer, Photoshop layer
+* 3 - Next layer, Previous layer, Photoshop layer  
 ![img](https://i.imgur.com/B5lEVrV.jpg)
 
 * RGB  
