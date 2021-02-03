@@ -149,7 +149,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // _PS keymap
 // .--------------------------------.
 // |		   |		  |			|
-// |   	 	   | Next Doc |	Numpad  |
+// |   	Esc    | Next Doc |	Numpad  |
 // |		   |		  |			|
 // |--------------------------------|
 // |		|		|		|		|
