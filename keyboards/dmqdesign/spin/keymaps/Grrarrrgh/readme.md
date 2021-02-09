@@ -13,14 +13,14 @@
 * 1 - VolUp, VolDn, Mute
 * 2 - ScrollUp, ScrollDn, Reset
 * 3 - Next layer, Previous layer, Photoshop layer  
-![img](https://i.imgur.com/B5lEVrV.jpg)
+![img](https://raw.githubusercontent.com/Grrarrrgh/qmk_firmware/dmqspindev/keyboards/dmqdesign/spin/keymaps/Grrarrrgh/spin_numpad.jpg)
 
 ### RGB  
-![img](https://i.imgur.com/e12dA56.jpg)
+![img](https://raw.githubusercontent.com/Grrarrrgh/qmk_firmware/dmqspindev/keyboards/dmqdesign/spin/keymaps/Grrarrrgh/spin_rgb.jpg)
 <br />
 
 ### F keys  
-![img](https://i.imgur.com/pk1ophm.jpg)
+![img](https://raw.githubusercontent.com/Grrarrrgh/qmk_firmware/dmqspindev/keyboards/dmqdesign/spin/keymaps/Grrarrrgh/spin_fnum.jpeg)
 <br />
 
 ### Photoshop
@@ -30,11 +30,11 @@
 * 2 - Opacity/Fill/Flow (with Shift modifier) +3%, -3%, Next Document (CTRL+TAB)
 * 3 - Next layer, Previous layer, Numberpad layer
 * Note that the opacity/fill/flow functionality cannot read the current value from Photoshop, instead a value of 60% is chosen as the start point (when the keypad is connected)and for each detent turn cw that value is increased by 3, rememberred, and sent as a keypress. Turning anti-cw  reduces the value by 3 and sends as a keypress. ie on first use it will **always** set the opacity/fill/flow to 60% and increase/decrease form there.  
-![img](https://i.imgur.com/8HquDGi.jpg)
+![img](https://raw.githubusercontent.com/Grrarrrgh/qmk_firmware/dmqspindev/keyboards/dmqdesign/spin/keymaps/Grrarrrgh/spin_ps.jpg)
 <br />
 
 ### Arrows (aiming to merge these into another layer).  
-![img](https://i.imgur.com/SXNiBpJ.jpg)  
+![img](https://raw.githubusercontent.com/Grrarrrgh/qmk_firmware/dmqspindev/keyboards/dmqdesign/spin/keymaps/Grrarrrgh/spin_arrow.jpg)  
 <br />
 
 ### Destiny 2
