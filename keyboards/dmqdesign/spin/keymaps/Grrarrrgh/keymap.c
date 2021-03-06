@@ -149,7 +149,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // _PS keymap
 // .--------------------------------.
 // |		   |		  |			|
-// |   	 	   | Next Doc |	Numpad  |
+// |   	Esc    | Next Doc |	Numpad  |
 // |		   |		  |			|
 // |--------------------------------|
 // |		|		|		|		|
@@ -165,35 +165,35 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // |		|		|		|		|
 //  -------------------------------- 
     [_PS] = LAYOUT(/* Base */
-				KC_TRNS, NXTDOC, TO(_NUMPAD),
+				KC_ESC, NXTDOC, TO(_NUMPAD),
 				TD(TD_A_I), TD(TD_N_G), TD(TD_X_C), TD(TD_V_D),
 				KC_LSHIFT, TD(TD_S_E), TD(TD_P_K), TD(TD_L_Z),
 				KC_LCTL, KC_LALT, KC_SPACE, TD(TD_ENT_BSPACE)
                 ),
 				
 // _PSDPAD keymap
-// .------------------------------------.
-// |		   |		   |	 		|
-// |   	 	   |   	   	   |		    |
-// |		   |		   |			|
-// |------------------------------------|
-// |		|		 |		  |			|
-// | 		| 		 | 		  | 		|
-// |		|		 |		  |			|
-// |--------+--------+--------+---------|
-// |		|		 |		  |			|
-// |  		| 	UP	 | 		  | 		|
-// |		|		 |		  |			|
-// |--------+--------+--------+---------|
-// |		|		 |		  |			|
-// |  LEFT	|	DOWN | RIGHT  | 		|
-// |		|		 |		  |			|
-//  ------------------------------------
+// .--------------------------------.
+// |		   |		  |			|
+// |   	Esc    | Next Doc |	_PS		|
+// |		   |		  |			|
+// |--------------------------------|
+// |		|		|		|		|
+// |    	|   	|  UP	|	  	|
+// |		|		|		|		|
+// |--------+-------+-------+-------|
+// |		|		|		|		|
+// |  SHFT	| LEFT	| DOWN	| RIGHT	|
+// |		|		|		|		|
+// |--------+-------+-------+-------|
+// |		|		|		|		|
+// |  CTRL	|  ALT	|  SPC	|  ENT	|
+// |		|		|		|		|
+//  -------------------------------- 
 	[_PSDPAD] = LAYOUT(/* Base */
-                KC_NO, KC_NO, KC_NO,
-				KC_NO, KC_NO, KC_NO, KC_NO,
-				KC_NO, KC_UP, KC_NO, KC_NO,
-				KC_LEFT, KC_DOWN, KC_RIGHT, KC_NO
+                KC_ESC, NXTDOC, TO(_PS),
+				KC_NO, KC_NO, KC_UP, KC_NO,
+				KC_LSHIFT, KC_LEFT, KC_DOWN, KC_RIGHT,
+				KC_LCTL, KC_LALT, KC_SPACE, KC_ENT
                 ),
 				
 	[_D2] = LAYOUT(/* Base */

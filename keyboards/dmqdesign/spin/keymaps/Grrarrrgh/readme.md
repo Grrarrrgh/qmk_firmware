@@ -5,35 +5,45 @@
 * OLED displays layer name and RGB mode  
 <br />
 
-* First layer is a numberpad.
+## Layout
+
+
+### Numberpad.
 * Encoders (CW, !CW, Press):
 * 1 - VolUp, VolDn, Mute
 * 2 - ScrollUp, ScrollDn, Reset
-* 3 - Next layer, Previous layer, Photoshop layer
+* 3 - Next layer, Previous layer, Photoshop layer  
+![img](https://raw.githubusercontent.com/Grrarrrgh/qmk_firmware/dmqspindev/keyboards/dmqdesign/spin/keymaps/Grrarrrgh/spin_numpad.jpg)
+
+### RGB  
+![img](https://raw.githubusercontent.com/Grrarrrgh/qmk_firmware/dmqspindev/keyboards/dmqdesign/spin/keymaps/Grrarrrgh/spin_rgb.jpg)
 <br />
 
-* Second layer is RGB control layer. Encoders as numberpad.
+### F keys  
+![img](https://raw.githubusercontent.com/Grrarrrgh/qmk_firmware/dmqspindev/keyboards/dmqdesign/spin/keymaps/Grrarrrgh/spin_fnum.jpeg)
 <br />
 
-* Third layer is F keys
-<br />
-
-* Forth layer is user specific (ie customised) Photoshop keys (customised keybinds included below) 
+### Photoshop
+* User specific Photoshop keys (customised keybinds included below) 
 * Encoders (CW, !CW, Press):
-* 1 - ], [, Mute
+* 1 - ], [, Escape
 * 2 - Opacity/Fill/Flow (with Shift modifier) +3%, -3%, Next Document (CTRL+TAB)
 * 3 - Next layer, Previous layer, Numberpad layer
 * Note that the opacity/fill/flow functionality cannot read the current value from Photoshop, instead a value of 60% is chosen as the start point (when the keypad is connected)and for each detent turn cw that value is increased by 3, rememberred, and sent as a keypress. Turning anti-cw  reduces the value by 3 and sends as a keypress. ie on first use it will **always** set the opacity/fill/flow to 60% and increase/decrease form there.  
+![img](https://raw.githubusercontent.com/Grrarrrgh/qmk_firmware/dmqspindev/keyboards/dmqdesign/spin/keymaps/Grrarrrgh/spin_ps.jpg)
 <br />
 
-* Fifth layer is arrow keys (aiming to merge these into another layer).  Encoders as numberpad.  
+### Arrows (aiming to merge these into another layer).  
+![img](https://raw.githubusercontent.com/Grrarrrgh/qmk_firmware/dmqspindev/keyboards/dmqdesign/spin/keymaps/Grrarrrgh/spin_arrow.jpg)  
 <br />
 
-* Sixth layer is Destiny 2 macros for lazy Guardians (not implimented yet becasue timed macros).  Encoders as numberpad.  
+### Destiny 2
+* Macros for lazy Guardians (not implimented yet becasue timed macros and burnout).  Encoders as numberpad.  
+<br />
 <br />
 <br />
 
-#Photoshop keybinds
+# Photoshop keybinds
 
 KEY	|	TOOLS				|	CTRL			|	CTRL SHFT			|	CTRL ALT				|	CTRL ALT SHIFT	|	ALT SHIFT/MODE
 ---	|	------------------	|	--------------	|	------------------	|	---------------------	|	--------------	|	--------------
@@ -42,8 +52,8 @@ I 	|	Eye dropper			| 	Invert			|	Inverse selection	|	Edit image				|	File info		
 N 	|	Brush				|	New document	|	New layer			|							|					|	Normal
 G 	|	Gradient			|	Group			|	Ungroup				|	Link/release clip mask	|					|
 X 	|	Switch swatches 	|	Cut				|	Liquify				|	Transform				|	Puppet warp		|
-C 	|	Crop				|	Copy			|	Copy visible		|	Dupe to new layer		|	Colour range	|	Colour
-V 	|	Move 				|	Paste			|						|							|					|
+C 	|	Crop				|	Copy			|	Copy visible		|	Canvas size				|	Colour range	|	Colour
+V 	|	Move 				|	Paste			|	Paste in place		|	Dupe to new layer		|					|
 D 	|	Reset swatches		|	Deselect		|						|							|					|
 S	|	Clone, Heal, Spot 	|	Save			|	Save as				|	Smart object			|					|	Screen
 E 	|	Dodge, Burn 		|	Merge Down		|	Merge visible		|	Stamp selected 			|	Stamp visible	|	Difference
