@@ -14,13 +14,6 @@
 * 2 - ScrollUp, ScrollDn, Reset
 * 3 - Next layer, Previous layer, Photoshop layer  
 ![img](https://raw.githubusercontent.com/Grrarrrgh/qmk_firmware/dmqspindev/keyboards/dmqdesign/spin/keymaps/Grrarrrgh/spin_numpad.jpg)
-
-### RGB  
-![img](https://raw.githubusercontent.com/Grrarrrgh/qmk_firmware/dmqspindev/keyboards/dmqdesign/spin/keymaps/Grrarrrgh/spin_rgb.jpg)
-<br />
-
-### F keys  
-![img](https://raw.githubusercontent.com/Grrarrrgh/qmk_firmware/dmqspindev/keyboards/dmqdesign/spin/keymaps/Grrarrrgh/spin_fnum.jpeg)
 <br />
 
 ### Photoshop
@@ -37,8 +30,12 @@
 ![img](https://raw.githubusercontent.com/Grrarrrgh/qmk_firmware/dmqspindev/keyboards/dmqdesign/spin/keymaps/Grrarrrgh/spin_arrow.jpg)  
 <br />
 
+### RGB  
+![img](https://raw.githubusercontent.com/Grrarrrgh/qmk_firmware/dmqspindev/keyboards/dmqdesign/spin/keymaps/Grrarrrgh/spin_rgb.jpg)
+<br />
+
 ### Destiny 2
-* Macros for lazy Guardians (not implimented yet becasue timed macros and burnout).  Encoders as numberpad.  
+* Macros for lazy Guardians still WIP  
 <br />
 <br />
 <br />
@@ -55,7 +52,9 @@ X 	|	Switch swatches 	|	Cut				|	Liquify				|	Transform				|	Puppet warp		|
 C 	|	Crop				|	Copy			|	Copy visible		|	Canvas size				|	Colour range	|	Colour
 V 	|	Move 				|	Paste			|	Paste in place		|	Dupe to new layer		|					|
 D 	|	Reset swatches		|	Deselect		|						|							|					|
-S	|	Clone, Heal, Spot 	|	Save			|	Save as				|	Smart object			|					|	Screen
+F	|	Toggle screen mode	|	Last filter		|						|							|					|
+R	|	Rotate				|	Show/hide ruler	|						|							|					|
+S	|	Clone, Heal, Spot 	|	Save			|	Save as				|	Smart object			|	Dust & scratch	|	Screen
 E 	|	Dodge, Burn 		|	Merge Down		|	Merge visible		|	Stamp selected 			|	Stamp visible	|	Difference
 P 	|	Path 				|	Curves			|	Place linked		|	Place embedded			|					|	Passthrough
 K 	|	Smudge, Blur 		|	Selective col	|	Hue/Sat				|							|					|	Darken
