@@ -156,14 +156,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // |		|		|		|		|
 // |--------+-------+-------+-------|
 // |		|		|		|	ENT	|
-// |  SHFT	|  CTRL	|  ALT	|  BSPC	|
+// |  CTRL	|  SHFT	|  ALT	|  BSPC	|
 // |		|		|		|	SPC	|
 //  -------------------------------- 
     [_PS] = LAYOUT(/* Base */
 				KC_ESC, NXTDOC, TO(_NUMPAD),
 				TD(TD_A_I), TD(TD_N_G), TD(TD_X_C), TD(TD_V_D),
 				TD(TD_F_R), TD(TD_S_E), TD(TD_P_K), TD(TD_L_Z),
-				KC_LSHIFT, KC_LCTL, KC_LALT, TD(TD_ENT_BSPACE)
+				KC_LCTL, KC_LSHIFT, KC_LALT, TD(TD_ENT_BSPACE)
                 ),
 				
 // _PSDPAD keymap
@@ -173,22 +173,22 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // |		   |		  |			|
 // |--------------------------------|
 // |		|		|		|		|
-// |    	|   	|  UP	|	  	|
+// |    	|   UP	|  	X C	|	V D	|
 // |		|		|		|		|
 // |--------+-------+-------+-------|
 // |		|		|		|		|
-// |  		| LEFT	| DOWN	| RIGHT	|
+// |  LEFT	| DOWN	| RIGHT	| 	L Z	|
 // |		|		|		|		|
 // |--------+-------+-------+-------|
 // |		|		|		|	ENT	|
-// |  SHFT	|  CTRL	|  ALT	|  BSPC	|
+// |  CTRL	|  SHFT	|  ALT	|  BSPC	|
 // |		|		|		|	SPC	|
 //  -------------------------------- 
 	[_PSDPAD] = LAYOUT(/* Base */
                 KC_ESC, NXTDOC, TO(_PS),
-				KC_NO, KC_NO, KC_UP, KC_NO,
-				KC_NO, KC_LEFT, KC_DOWN, KC_RIGHT,
-				KC_LSHIFT, KC_LCTL, KC_LALT, TD(TD_ENT_BSPACE)
+				KC_NO, KC_UP,TD(TD_X_C),  TD(TD_V_D),
+				KC_LEFT, KC_DOWN, KC_RIGHT, TD(TD_L_Z),
+				KC_LCTL, KC_LSHIFT, KC_LALT, TD(TD_ENT_BSPACE)
                 ),
 				
 				// _RGB keymap
